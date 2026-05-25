@@ -1,0 +1,160 @@
+.demo-instruction {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+  color: #58a6ff;
+}
+
+.demo-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.demo-app {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  padding: 30px;
+  min-width: 500px;
+  max-width: 650px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.app-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.demo-input,
+.demo-textarea {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+}
+
+.demo-textarea {
+  min-height: 80px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.submit-button {
+  background: linear-gradient(135deg, #1f6feb 0%, #58a6ff 100%);
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(88, 166, 255, 0.4);
+}
+
+.submit-button:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(88, 166, 255, 0.6);
+}
+
+.submit-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.journey-visualization {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.viz-step {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  font-size: 1.3rem;
+  opacity: 0.3;
+  transition: all 0.5s ease;
+}
+
+.viz-step.active {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.2);
+  animation: slideIn 0.5s ease-out;
+}
+
+.viz-icon {
+  font-size: 2.5rem;
+}
+
+.spinner {
+  width: 25px;
+  height: 25px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-left: auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.saved-data {
+  margin-top: 20px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.saved-data h3 {
+  margin-bottom: 15px;
+  color: #39d353;
+  font-size: 1.4rem;
+}
+
+.data-display {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.data-display p {
+  font-size: 1rem;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.reset-button {
+  background: linear-gradient(135deg, #39d353 0%, #26a641 100%);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(57, 211, 83, 0.4);
+}
+
+.reset-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(57, 211, 83, 0.6);
+}

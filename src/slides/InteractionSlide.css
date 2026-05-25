@@ -1,0 +1,254 @@
+.interaction-demo {
+  margin: 30px 0;
+}
+
+.subtitle-text {
+  font-size: 1.3rem;
+  color: #c9d1d9;
+  margin-bottom: 30px;
+}
+
+.demo-box-new {
+  background: rgba(22, 27, 34, 0.6);
+  border: 2px solid rgba(88, 166, 255, 0.3);
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.demo-box-new h3 {
+  margin-bottom: 25px;
+  color: #58a6ff;
+}
+
+.like-demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+  padding: 30px;
+  background: rgba(88, 166, 255, 0.1);
+  border-radius: 15px;
+}
+
+.like-button {
+  background: linear-gradient(135deg, #1f6feb 0%, #58a6ff 100%);
+  color: white;
+  border: none;
+  padding: 20px 50px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(88, 166, 255, 0.4);
+}
+
+.like-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 30px rgba(88, 166, 255, 0.6);
+}
+
+.like-button:active {
+  transform: scale(1.05);
+}
+
+.like-count {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #58a6ff;
+  min-width: 120px;
+  text-align: center;
+}
+
+.toggle-code-btn {
+  background: rgba(88, 166, 255, 0.2);
+  color: #58a6ff;
+  border: 1px solid rgba(88, 166, 255, 0.4);
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.toggle-code-btn:hover {
+  background: rgba(88, 166, 255, 0.3);
+  border-color: rgba(88, 166, 255, 0.6);
+}
+
+.code-reveal {
+  margin-top: 25px;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.code-example {
+  background: #1e1e1e;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.code-header {
+  background: #2d2d2d;
+  padding: 12px 20px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-bottom: 1px solid #444;
+}
+
+.code-block {
+  color: #d4d4d4;
+  padding: 15px;
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  text-align: left;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.explanation-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.exp-card {
+  background: rgba(22, 27, 34, 0.8);
+  border: 2px solid rgba(88, 166, 255, 0.3);
+  border-radius: 15px;
+  padding: 25px;
+  min-width: 180px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.exp-card:hover {
+  border-color: rgba(88, 166, 255, 0.6);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(88, 166, 255, 0.3);
+}
+
+.exp-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.exp-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #58a6ff;
+}
+
+.exp-card p {
+  font-size: 0.95rem;
+  color: #c9d1d9;
+  margin: 0;
+}
+
+.exp-arrow {
+  font-size: 2rem;
+  color: #58a6ff;
+  font-weight: bold;
+}
+
+.interaction-text {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  color: #c9d1d9;
+}
+
+.interaction-text strong {
+  color: #58a6ff;
+}
+
+.demo-box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 50px;
+  backdrop-filter: blur(10px);
+}
+
+.demo-button {
+  background: linear-gradient(135deg, #1f6feb 0%, #58a6ff 100%);
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(88, 166, 255, 0.4);
+  margin: 20px 0;
+}
+
+.demo-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(88, 166, 255, 0.6);
+}
+
+.demo-button.clicked {
+  background: linear-gradient(135deg, #39d353 0%, #26a641 100%);
+  animation: pulse 0.5s ease;
+}
+
+.action-flow {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.flow-step {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 25px 40px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  animation: slideIn 0.5s ease-out;
+  width: 400px;
+}
+
+.step1 {
+  animation-delay: 0.2s;
+}
+
+.step2 {
+  animation-delay: 0.4s;
+}
+
+.step3 {
+  animation-delay: 0.6s;
+}
+
+.step-number {
+  background: linear-gradient(135deg, #1f6feb 0%, #58a6ff 100%);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 12px rgba(88, 166, 255, 0.4);
+}
+
+.arrow {
+  font-size: 3rem;
+  color: white;
+}

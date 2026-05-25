@@ -1,0 +1,139 @@
+.end-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.end-title {
+  margin-bottom: 18px;
+  animation: fadeIn 0.5s ease-in;
+  font-size: 2rem;
+}
+
+.recap-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 18px;
+  width: 100%;
+  max-width: 850px;
+}
+
+.recap-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+  animation: slideIn 0.5s ease-out;
+}
+
+.recap-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.recap-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.recap-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.recap-card:hover {
+  transform: translateY(-8px);
+}
+
+.recap-emoji {
+  font-size: 2.3rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.recap-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+
+.recap-card p {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.final-message {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  backdrop-filter: blur(10px);
+  max-width: 850px;
+  animation: fadeIn 0.8s ease-in;
+}
+
+.big-final {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.apps-list {
+  font-size: 1.05rem;
+  color: #58a6ff;
+  margin-bottom: 8px;
+}
+
+.cta {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #39d353;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.career-note {
+  font-size: 0.9rem;
+  margin-top: 6px;
+  color: #58a6ff;
+  font-style: italic;
+}
+
+.tech-stack {
+  margin-bottom: 15px;
+  animation: fadeIn 1s ease-in;
+}
+
+.tech-title {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
+
+.tech-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.badge {
+  background: linear-gradient(135deg, #1f6feb 0%, #58a6ff 100%);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border: 2px solid rgba(88, 166, 255, 0.4);
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 8px rgba(88, 166, 255, 0.3);
+}
+
+.badge:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(88, 166, 255, 0.5);
+}
+
+.thank-you {
+  font-size: 2rem;
+  font-weight: bold;
+  animation: bounce 2s ease-in-out infinite;
+  margin-top: 8px;
+}

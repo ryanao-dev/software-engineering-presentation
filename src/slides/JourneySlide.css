@@ -1,0 +1,87 @@
+.journey-subtitle {
+  font-size: 1.4rem;
+  color: #58a6ff;
+  margin-bottom: 30px;
+}
+
+.journey-flow {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 25px;
+  backdrop-filter: blur(10px);
+  max-width: 800px;
+  margin: 0 auto;
+  max-height: 45vh;
+  overflow-y: auto;
+}
+
+.journey-step {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 8px 0;
+  opacity: 0.3;
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+}
+
+.journey-step.active {
+  opacity: 1;
+  transform: scale(1);
+  background: rgba(255, 255, 255, 0.2);
+  animation: pulse 0.5s ease;
+}
+
+.step-icon {
+  font-size: 2.5rem;
+  min-width: 60px;
+  text-align: center;
+}
+
+.step-content {
+  text-align: left;
+  flex: 1;
+}
+
+.step-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.step-content p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.connector {
+  font-size: 2rem;
+  text-align: center;
+  margin: 3px 0;
+  animation: slideIn 0.3s ease-out;
+}
+
+.success-message {
+  margin-top: 18px;
+  background: linear-gradient(135deg, #39d353 0%, #26a641 100%);
+  padding: 18px;
+  border-radius: 20px;
+  animation: fadeIn 0.5s ease-in;
+  box-shadow: 0 4px 12px rgba(57, 211, 83, 0.4);
+}
+
+.success-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 8px;
+  animation: bounce 1s ease-in-out infinite;
+}
+
+.success-message p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+}

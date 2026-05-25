@@ -1,0 +1,153 @@
+.presentation {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+
+.slide-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.slide {
+  width: 90%;
+  max-width: 1200px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  max-height: 85vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide::-webkit-scrollbar {
+  display: none;
+}
+
+.controls {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: rgba(22, 27, 34, 0.95);
+  padding: 15px 30px;
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(88, 166, 255, 0.3);
+}
+
+.nav-button {
+  background: linear-gradient(135deg, #1f6feb 0%, #58a6ff 100%);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(88, 166, 255, 0.3);
+}
+
+.nav-button:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(88, 166, 255, 0.5);
+  background: linear-gradient(135deg, #58a6ff 0%, #79c0ff 100%);
+}
+
+.nav-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.slide-counter {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  min-width: 80px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.emoji {
+  font-size: 3rem;
+  margin: 10px 0;
+  display: inline-block;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+@media (max-height: 800px) {
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+  
+  .slide {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .slide {
+    width: 95%;
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+}

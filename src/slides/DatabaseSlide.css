@@ -1,0 +1,114 @@
+.db-intro {
+  font-size: 1.2rem;
+  color: #58a6ff;
+  margin-bottom: 25px;
+}
+
+.content-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.database-visual {
+  flex: 1;
+}
+
+.vault-simple {
+  background: linear-gradient(135deg, #161b22 0%, #0d1117 100%);
+  padding: 25px;
+  border-radius: 20px;
+  border: 2px solid rgba(88, 166, 255, 0.3);
+  box-shadow: 0 8px 24px rgba(88, 166, 255, 0.2);
+  text-align: center;
+}
+
+.vault-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  animation: glow 2s ease-in-out infinite;
+}
+
+.data-tables {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.table-item {
+  background: rgba(88, 166, 255, 0.1);
+  border: 1px solid rgba(88, 166, 255, 0.3);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.table-item:hover {
+  background: rgba(88, 166, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.db-facts {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.fact {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 18px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-left: 3px solid rgba(88, 166, 255, 0.5);
+}
+
+.fact-icon {
+  font-size: 2.2rem;
+  min-width: 40px;
+}
+
+.fact p {
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.db-example {
+  background: rgba(22, 27, 34, 0.6);
+  border: 2px solid rgba(88, 166, 255, 0.3);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.example-title {
+  font-size: 1rem;
+  color: #58a6ff;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.example-fields {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.field {
+  background: rgba(88, 166, 255, 0.2);
+  border: 1px solid rgba(88, 166, 255, 0.4);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-family: monospace;
+  color: #58a6ff;
+}

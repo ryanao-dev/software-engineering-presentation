@@ -1,0 +1,85 @@
+.ui-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-mockup {
+  margin: 20px 0;
+  background: #1a1a1a;
+  border-radius: 40px;
+  padding: 15px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.5s ease-in;
+  display: inline-block;
+}
+
+.phone-screen {
+  background: linear-gradient(135deg, #161b22 0%, #0d1117 100%);
+  border-radius: 25px;
+  width: 280px;
+  height: 420px;
+  padding: 12px;
+  position: relative;
+  overflow-y: auto;
+  border: 2px solid rgba(88, 166, 255, 0.3);
+}
+
+.app-header {
+  background: rgba(88, 166, 255, 0.2);
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  border: 1px solid rgba(88, 166, 255, 0.3);
+}
+
+.ui-element {
+  background: rgba(22, 27, 34, 0.95);
+  color: #ffffff;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  animation: slideIn 0.5s ease-out;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(88, 166, 255, 0.3);
+}
+
+.ui-element:hover {
+  transform: scale(1.05);
+  border-color: rgba(88, 166, 255, 0.6);
+  background: rgba(31, 111, 235, 0.2);
+}
+
+.button-elem {
+  animation-delay: 0.1s;
+}
+
+.input-elem {
+  animation-delay: 0.2s;
+}
+
+.image-elem {
+  animation-delay: 0.3s;
+}
+
+.icon-elem {
+  animation-delay: 0.4s;
+}
+
+.emoji-icon {
+  font-size: 1.3rem;
+}
+
+.ui-description {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
