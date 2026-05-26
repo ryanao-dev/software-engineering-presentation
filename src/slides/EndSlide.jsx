@@ -29,7 +29,7 @@ function EndSlide() {
         <p className="big-final">Every app follows this architecture:</p>
         <p className="apps-list">Instagram • Discord • Spotify • Netflix • Your favorite game</p>
         <p className="cta">You could build the next viral app 🚀</p>
-        <p className="career-note">Software engineers make $80k-200k+ building these systems</p>
+
       </div>
 
       <div className="tech-stack">

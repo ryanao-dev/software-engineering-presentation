@@ -1,0 +1,78 @@
+.bugs-intro {
+  font-size: 1.15rem;
+  margin-bottom: 20px;
+  opacity: 0.95;
+}
+
+.bugs-grid {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.bug-type {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 18px;
+  flex: 1;
+  max-width: 220px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.bug-emoji {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.bug-type h3 {
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin: 0 0 6px 0;
+  color: #fbbf24;
+}
+
+.bug-type p {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.bugs-why {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 14px 20px;
+  margin-bottom: 18px;
+}
+
+.bugs-why-title {
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.bugs-reasons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.reason-tag {
+  background: rgba(251, 191, 36, 0.2);
+  border: 1px solid rgba(251, 191, 36, 0.4);
+  color: #fde68a;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+}
+
+.bugs-cta {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+}

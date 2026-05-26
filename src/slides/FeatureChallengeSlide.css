@@ -1,0 +1,82 @@
+.challenge-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.3), rgba(245, 158, 11, 0.2));
+  border: 1px solid rgba(251, 191, 36, 0.5);
+  color: #fde68a;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: clamp(0.8rem, 1.2vw, 1rem);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.challenge-intro {
+  font-size: clamp(1rem, 1.5vw, 1.3rem);
+  opacity: 0.9;
+  margin-bottom: 16px;
+}
+
+.challenge-brief {
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 3px solid #fbbf24;
+  border-radius: 0 12px 12px 0;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.challenge-brief p {
+  margin: 0 0 6px 0;
+  font-size: clamp(0.85rem, 1.3vw, 1.1rem);
+}
+
+.challenge-brief p:last-child {
+  margin: 0;
+}
+
+.brief-quote {
+  font-style: italic;
+  color: #fde68a;
+  font-size: clamp(1rem, 1.6vw, 1.3rem) !important;
+  font-weight: bold;
+}
+
+.challenge-roles {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.role-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 16px;
+  flex: 1;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.role-emoji {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.role-card h3 {
+  font-size: clamp(0.85rem, 1.3vw, 1.05rem);
+  color: #fbbf24;
+  margin-bottom: 6px;
+}
+
+.role-card p {
+  font-size: clamp(0.78rem, 1.1vw, 0.95rem);
+  opacity: 0.85;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.challenge-cta {
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  font-weight: bold;
+  margin: 0;
+  animation: pulse 1.5s ease-in-out infinite;
+}

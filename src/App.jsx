@@ -8,6 +8,12 @@ import APISlide from './slides/APISlide'
 import DatabaseSlide from './slides/DatabaseSlide'
 import JourneySlide from './slides/JourneySlide'
 import ReverseJourney from './slides/ReverseJourney'
+import ScenarioSlide from './slides/ScenarioSlide'
+import AIAgentSlide from './slides/AIAgentSlide'
+import BugsSlide from './slides/BugsSlide'
+import Bug01Slide from './slides/Bug01Slide'
+import Bug02Slide from './slides/Bug02Slide'
+import FeatureChallengeSlide from './slides/FeatureChallengeSlide'
 import InteractiveDemo from './slides/InteractiveDemo'
 import EndSlide from './slides/EndSlide'
 
@@ -24,7 +30,13 @@ function App() {
     <JourneySlide />,
     <ReverseJourney />,
     <InteractiveDemo />,
-    <EndSlide />
+    <EndSlide />,
+    <ScenarioSlide />,
+    <AIAgentSlide />,
+    <BugsSlide />,
+    <Bug01Slide />,
+    <Bug02Slide />,
+    <FeatureChallengeSlide />
   ]
 
   const nextSlide = () => {
