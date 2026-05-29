@@ -29,7 +29,6 @@ function EndSlide() {
         <p className="big-final">Every app follows this architecture:</p>
         <p className="apps-list">Instagram • Discord • Spotify • Netflix • Your favorite game</p>
         <p className="cta">You could build the next viral app 🚀</p>
-
       </div>
 
       <div className="tech-stack">
@@ -43,8 +42,6 @@ function EndSlide() {
           <span className="badge">Servers</span>
         </div>
       </div>
-
-      <p className="thank-you">Thank You! 🙌</p>
     </div>
   )
 }

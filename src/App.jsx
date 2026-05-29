@@ -6,6 +6,7 @@ import UISlide from './slides/UISlide'
 import InteractionSlide from './slides/InteractionSlide'
 import APISlide from './slides/APISlide'
 import DatabaseSlide from './slides/DatabaseSlide'
+import DatabaseTableSlide from './slides/DatabaseTableSlide'
 import JourneySlide from './slides/JourneySlide'
 import ReverseJourney from './slides/ReverseJourney'
 import ScenarioSlide from './slides/ScenarioSlide'
@@ -27,6 +28,7 @@ function App() {
     <InteractionSlide />,
     <APISlide />,
     <DatabaseSlide />,
+    <DatabaseTableSlide />,
     <JourneySlide />,
     <ReverseJourney />,
     <InteractiveDemo />,

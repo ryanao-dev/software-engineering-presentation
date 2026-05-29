@@ -1,0 +1,86 @@
+.db-table-intro {
+  font-size: clamp(0.9rem, 1.3vw, 1.1rem);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.db-table-intro code {
+  background: rgba(255,255,255,0.15);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.db-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: clamp(0.78rem, 1.2vw, 1rem);
+}
+
+.db-table th {
+  background: rgba(88, 166, 255, 0.25);
+  color: #93c5fd;
+  padding: 10px 14px;
+  text-align: left;
+  font-family: monospace;
+  border-bottom: 2px solid rgba(88, 166, 255, 0.3);
+}
+
+.db-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  text-align: left;
+}
+
+.db-table tr:nth-child(even) td {
+  background: rgba(255,255,255,0.04);
+}
+
+.id-col {
+  color: #fbbf24;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.emoji-col {
+  font-size: 1.3rem;
+}
+
+.date-col {
+  font-family: monospace;
+  opacity: 0.7;
+}
+
+.db-table-notes {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+}
+
+.db-note {
+  background: rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 12px 16px;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: left;
+}
+
+.db-note span {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.db-note p {
+  font-size: clamp(0.75rem, 1.1vw, 0.95rem);
+  margin: 0;
+  opacity: 0.9;
+  line-height: 1.4;
+}

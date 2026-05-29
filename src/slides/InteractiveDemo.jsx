@@ -68,9 +68,9 @@ function InteractiveDemo() {
               </div>
               
               {submitted && (
-                <div className={`viz-step api-step ${loading ? 'active' : ''}`}>
+                <div className={`viz-step api-step ${submitted ? 'active' : ''}`}>
                   <span className="viz-icon">🚴</span>
-                  <span>API: Sending...</span>
+                  <span>{loading ? 'API: Sending...' : 'API: Sent! ✅'}</span>
                   {loading && <div className="spinner"></div>}
                 </div>
               )}

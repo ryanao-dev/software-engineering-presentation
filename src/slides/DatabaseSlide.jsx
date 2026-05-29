@@ -42,15 +42,7 @@ function DatabaseSlide() {
         </div>
       </div>
 
-      <div className="db-example">
-        <p className="example-title">Example: users table stores →</p>
-        <div className="example-fields">
-          <span className="field">email</span>
-          <span className="field">password (hashed)</span>
-          <span className="field">profile_pic</span>
-          <span className="field">created_at</span>
-        </div>
-      </div>
+      <div className="db-example" style={{display:'none'}}></div>
     </div>
   )
 }

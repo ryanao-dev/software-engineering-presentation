@@ -3,7 +3,8 @@
 }
 
 .glowing-title {
-  animation: glow 2s ease-in-out infinite;
+  /* glow removed */
+  font-size: clamp(1.8rem, 3.5vw, 3rem);
 }
 
 .subtitle {

@@ -27,6 +27,7 @@
   font-size: clamp(1.1rem, 1.8vw, 1.5rem);
   color: #fbbf24;
   margin-bottom: 4px;
+  text-align: left;
 }
 
 .ai-tagline {
