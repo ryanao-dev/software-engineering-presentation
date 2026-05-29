@@ -1,0 +1,40 @@
+.roles-intro {
+  font-size: clamp(0.9rem, 1.3vw, 1.1rem);
+  opacity: 0.85;
+  margin-bottom: 20px;
+}
+
+.roles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.role-item {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.role-item-emoji {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.role-item h3 {
+  font-size: clamp(0.85rem, 1.3vw, 1.05rem);
+  color: #fbbf24;
+  margin-bottom: 4px;
+}
+
+.role-item p {
+  font-size: clamp(0.75rem, 1.1vw, 0.9rem);
+  opacity: 0.85;
+  margin: 0;
+  line-height: 1.4;
+}

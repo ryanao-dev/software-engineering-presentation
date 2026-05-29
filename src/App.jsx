@@ -17,6 +17,7 @@ import Bug02Slide from './slides/Bug02Slide'
 import FeatureChallengeSlide from './slides/FeatureChallengeSlide'
 import InteractiveDemo from './slides/InteractiveDemo'
 import EndSlide from './slides/EndSlide'
+import TechRolesSlide from './slides/TechRolesSlide'
 
 function App() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -33,6 +34,7 @@ function App() {
     <ReverseJourney />,
     <InteractiveDemo />,
     <EndSlide />,
+    <TechRolesSlide />,
     <ScenarioSlide />,
     <AIAgentSlide />,
     <BugsSlide />,
