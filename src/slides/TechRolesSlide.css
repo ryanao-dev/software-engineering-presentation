@@ -27,13 +27,13 @@
 }
 
 .role-item h3 {
-  font-size: clamp(0.85rem, 1.3vw, 1.05rem);
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
   color: #fbbf24;
   margin-bottom: 4px;
 }
 
 .role-item p {
-  font-size: clamp(0.75rem, 1.1vw, 0.9rem);
+  font-size: clamp(0.9rem, 1.3vw, 1.1rem);
   opacity: 0.85;
   margin: 0;
   line-height: 1.4;

@@ -5,7 +5,7 @@ function ScenarioSlide() {
     <div className="slide scenario-slide">
       <h2>Your Mission 🎯</h2>
       <p className="scenario-intro">You're a software engineer at a tech company.</p>
-      <p className="scenario-intro">Your team has been asked to build a <strong>school canteen ordering app</strong>.</p>
+      <p className="scenario-intro">You've just joined the team working on a <strong>school canteen ordering app</strong> — and it's your first week.</p>
 
       <div className="scenario-cards">
         <div className="scenario-card">
@@ -21,7 +21,7 @@ function ScenarioSlide() {
         <div className="scenario-card">
           <span className="scenario-emoji">📋</span>
           <h3>The Work</h3>
-          <p>Real tasks: fixing bugs reported by users, and building new features requested by the canteen team</p>
+          <p>Your first tasks: fix bugs that have been reported, and build a new feature the team has been asked to deliver</p>
         </div>
       </div>
 

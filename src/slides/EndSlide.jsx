@@ -26,7 +26,7 @@ function EndSlide() {
       </div>
 
       <div className="final-message">
-        <p className="big-final">Every app follows this architecture:</p>
+        <p className="big-final">Many apps follow this architecture:</p>
         <p className="apps-list">Instagram • Discord • Spotify • Netflix • Your favorite game</p>
         <p className="cta">You could build the next viral app 🚀</p>
       </div>

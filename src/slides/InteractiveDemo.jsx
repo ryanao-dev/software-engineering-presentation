@@ -64,7 +64,7 @@ function InteractiveDemo() {
             <div className="journey-visualization">
               <div className="viz-step ui-step active">
                 <span className="viz-icon">📱</span>
-                <span>UI: Data collected!</span>
+                <span>UI: Data collected! ✅</span>
               </div>
               
               {submitted && (
