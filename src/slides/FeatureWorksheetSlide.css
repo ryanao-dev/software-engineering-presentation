@@ -4,27 +4,23 @@
 
 .worksheet-slide h2 {
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .worksheet-items {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 28px;
 }
 
 .worksheet-item {
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 14px;
-  padding: 18px 20px;
   display: flex;
   align-items: flex-start;
-  gap: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  gap: 20px;
 }
 
 .worksheet-num {
-  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-size: clamp(1.6rem, 2.8vw, 2.4rem);
   font-weight: bold;
   color: #fbbf24;
   flex-shrink: 0;
@@ -33,20 +29,15 @@
 }
 
 .worksheet-item h3 {
-  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  font-size: clamp(1.1rem, 1.8vw, 1.5rem);
   color: #fbbf24;
   margin-bottom: 6px;
 }
 
 .worksheet-item p {
-  font-size: clamp(0.85rem, 1.3vw, 1.05rem);
-  opacity: 0.85;
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
   margin: 0;
   line-height: 1.5;
-}
-
-.worksheet-example {
-  font-style: italic;
 }
 
 .worksheet-example em {
