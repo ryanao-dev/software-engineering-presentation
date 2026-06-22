@@ -1,0 +1,82 @@
+.worksheet-slide {
+  text-align: left;
+}
+
+.worksheet-slide h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.worksheet-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.worksheet-section {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+
+.worksheet-right .worksheet-section:last-child {
+  margin-bottom: 0;
+}
+
+.worksheet-section h3 {
+  font-size: clamp(0.85rem, 1.3vw, 1.05rem);
+  color: #fbbf24;
+  margin-bottom: 10px;
+}
+
+.story-builder {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.story-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.story-label {
+  font-size: clamp(0.78rem, 1.1vw, 0.9rem);
+  opacity: 0.7;
+  min-width: 70px;
+  flex-shrink: 0;
+  font-style: italic;
+}
+
+.story-row input,
+.worksheet-section textarea {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 7px 10px;
+  color: white;
+  font-size: clamp(0.78rem, 1.1vw, 0.9rem);
+  font-family: inherit;
+  outline: none;
+  width: 100%;
+}
+
+.story-row input::placeholder,
+.worksheet-section textarea::placeholder {
+  opacity: 0.4;
+  font-style: italic;
+}
+
+.story-row input:focus,
+.worksheet-section textarea:focus {
+  border-color: rgba(251, 191, 36, 0.5);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.worksheet-section textarea {
+  resize: none;
+  line-height: 1.5;
+}

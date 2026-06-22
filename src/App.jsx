@@ -15,6 +15,7 @@ import BugsSlide from './slides/BugsSlide'
 import Bug01Slide from './slides/Bug01Slide'
 import Bug02Slide from './slides/Bug02Slide'
 import FeatureChallengeSlide from './slides/FeatureChallengeSlide'
+import FeatureWorksheetSlide from './slides/FeatureWorksheetSlide'
 import InteractiveDemo from './slides/InteractiveDemo'
 import EndSlide from './slides/EndSlide'
 import TechRolesSlide from './slides/TechRolesSlide'
@@ -40,7 +41,8 @@ function App() {
     <BugsSlide />,
     <Bug01Slide />,
     <Bug02Slide />,
-    <FeatureChallengeSlide />
+    <FeatureChallengeSlide />,
+    <FeatureWorksheetSlide />
   ]
 
   const nextSlide = () => {
