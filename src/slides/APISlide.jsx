@@ -10,8 +10,7 @@ function APISlide() {
 
   return (
     <div className="slide api-slide">
-      <h2>Layer 2: The API (Backend Communication) 📡</h2>
-      <p>API = Application Programming Interface</p>
+      <h2>Layer 2: The API 📡</h2>
       <p className="simple-text">It's how your app TALKS to the server over HTTP/HTTPS</p>
       
       <div className="api-visual">
