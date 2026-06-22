@@ -3,8 +3,6 @@ import './FeatureWorksheetSlide.css'
 function FeatureWorksheetSlide() {
   return (
     <div className="slide worksheet-slide">
-      <h2>Before You Start Building 📝</h2>
-
       <div className="worksheet-items">
         <div className="worksheet-item">
           <span className="worksheet-num">1</span>

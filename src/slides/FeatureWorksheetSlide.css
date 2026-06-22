@@ -10,7 +10,7 @@
 .worksheet-items {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 36px;
 }
 
 .worksheet-item {
@@ -20,7 +20,7 @@
 }
 
 .worksheet-num {
-  font-size: clamp(1.6rem, 2.8vw, 2.4rem);
+  font-size: clamp(2rem, 3.5vw, 3rem);
   font-weight: bold;
   color: #fbbf24;
   flex-shrink: 0;
@@ -29,13 +29,13 @@
 }
 
 .worksheet-item h3 {
-  font-size: clamp(1.1rem, 1.8vw, 1.5rem);
+  font-size: clamp(1.3rem, 2.2vw, 1.9rem);
   color: #fbbf24;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .worksheet-item p {
-  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  font-size: clamp(1.1rem, 1.9vw, 1.6rem);
   margin: 0;
   line-height: 1.5;
 }
